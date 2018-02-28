@@ -1,9 +1,22 @@
 
 var Module = (function () {
 
+    var manipularVar =  8;
+    var soma = 5 + 8;
+
     var somaDeDoisValores = function () {
-        var soma = 5 + 8;
         console.log("Soma de dois valores: ", soma);
+    };
+   
+    var divisao = function () {
+        var divisao = soma/manipularVar;
+        return divisao;
+    }
+   
+    var manipularOito = function () {
+        manipularVar = 12
+        console.log("manipulando variaveis: ", manipularVar);
+        console.log("Exibir a divisao: " + divisao());
     };
 
     return {
@@ -14,6 +27,7 @@ var Module = (function () {
         /**
          * expor um metodo desse jeito ou o de cima comentado
          */
-        somaDeDoisValores : somaDeDoisValores
+        somaDeDoisValores : somaDeDoisValores,
+        manipularOito : manipularOito
     };
 });

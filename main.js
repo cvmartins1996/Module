@@ -12,6 +12,8 @@ console.log(acesso.somaDeDoisValores);
 // execução do metodo
 console.log(acesso.somaDeDoisValores());
 
+console.log(acesso.manipularOito());
+
 // estrutura do metodo
 //console.log(acesso.somaDeTresValores);
 // execução do metodo
