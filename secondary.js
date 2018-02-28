@@ -9,8 +9,8 @@ var Module = (function () {
     };
    
     var divisao = function () {
-        var divisao = soma/manipularVar;
-        return divisao;
+        var divisaoDeDoisNumeros = soma/manipularVar;
+        return divisaoDeDoisNumeros;
     }
    
     var manipularOito = function () {
